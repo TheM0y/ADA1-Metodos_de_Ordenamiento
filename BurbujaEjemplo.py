@@ -9,7 +9,7 @@ def bubble_sort(arr):
                 print(f"Intercambio en posición {j} y {j+1}: {arr}")
                 time.sleep(1)
 
-entrada = input("Ingresa palabras separadas por espacios: ")
+entrada = input("Ingresa los datos separadao por espacios: ")
 lista = entrada.split()
 bubble_sort(lista)
 print("Lista ordenada:", lista)
