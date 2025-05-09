@@ -11,7 +11,7 @@ def selection_sort(arr):
             print(f"Intercambio en posición {i} y {min_idx}: {arr}")
             time.sleep(1)
 
-entrada = input("Ingresa palabras separadas por espacios: ")
+entrada = input("Ingresa los datos separados por espacios: ")
 lista = entrada.split()
 selection_sort(lista)
 print("Lista ordenada:", lista)
