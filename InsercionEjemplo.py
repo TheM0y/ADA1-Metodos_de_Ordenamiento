@@ -13,7 +13,7 @@ def insertion_sort(arr):
         print(f"Inserción de '{valor}' en posición {j+1}: {arr}")
         time.sleep(1)
 
-entrada = input("Ingresa palabras separadas por espacios: ")
+entrada = input("Ingresa los datos separados por espacios: ")
 lista = entrada.split()
 insertion_sort(lista)
 print("Lista ordenada:", lista)
